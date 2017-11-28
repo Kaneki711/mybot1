@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import LINETCR
+import Aanbot
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
