@@ -14,95 +14,97 @@ print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Self ฿ΦŦ Ð☆₩
- ~~~~~~~ Command ~~~~~~~
-¤  Tagall     - แท็ก500คนลง
-¤  Lurking    - Set Point Read
-¤  Result     - Reading Point
-¤  Ginfo      - เช็คการตั้งค่ากลุ่ม
-¤  เช็ค      - รีเซ็ตระบบบอทอ่าน
-¤  อ่าน      - เช็คคนแอบอ่าน
-¤  แท็ก      - แท็กคน150ลง
-¤  Clear grup      - เช็คชื่อกลุ่มที่อยู่ทั้งหมด
-¤  Bot1      - ส่งของขวัญ
-¤  Bot2      - ส่งขอขวัญ
-¤  Bot3      - ส่งของขวัญ
-¤  Bot4      - ส่งของขวัญ
-¤  Com:on      - เปิดการคอมเม้น
-¤  Like:on      - เปิดการออโต้ไลค์
-¤  Like:off      - ปิดการออโต้ไลค์
-¤  Com:off      - เปิดคอมเม้น
- ~~~~~~ Command Admin ~~~~~~
-¤  Glist      - List Group BOT
-¤  Cancel     - Cancel All Pending Grup
-¤  Mid @      - Get MID 
-¤  Invite     - Invite Via Send Contact
-¤  Invite:    - Via MID
-¤  Whitelist @ - Via Tag
-¤  Whitelist:  - Via Mid
-¤  Whitelist   - Via Send Contact
-¤  Blacklist @ - Via Tag
-¤  Blacklist:  - Via Mid
-¤  Blacklist   - Via Send Contact
-¤  Clear ban   - Delete All Blacklist
-¤  Link on     - Open QR
-¤  Link off    - Close QR
-¤  Gurl        - Open QR And Get Link
-¤  Url         - Get QR Link
-¤  Gname       - Change Name Group
-¤  Banlist     - Cek Tersangka Kriminal
-¤  Details grup - Via Gid
-¤  Inviteme:    - Via Gid
-¤  Info grup
-¤  Clear grup
+helpMessage =""" 
+==========================
+KANEKI SELFBOT
+==========================
 
- ~~~~~ Command for kicker ~~~~~ 
-¤  Nuke
-¤  Ratakan
-¤  Kick @       - Via Tag
-¤  Kick:        - Via MID
+[*]  Tagall     
+[*]  Lurking   
+[*]  Result    
+[*]  Clear grup     
+[*]  Bot1-4
+[*]  Com:on 
+[*]  Like:on    
+[*]  Like:off    
+[*]  Com:off
 
- ~~~~~~ Command Player ~~~~~~
-¤  Bc:ct 
-¤  Bc:grup
-¤  Block @
-¤  Blocklist
-¤  Spam on/off
-¤  Uni
-¤  Bot:ct      -  Contact BOT
-¤  Bot:grup    - Grup Joined BOT
-¤  Allname:    - Change All Name BOT
-¤  Allbio:     - Change All Bio BOT
-¤  Bot sp      - Tes Speed BOT
-¤  Speed       - Tes Speed
-¤  Mycopy @    - Copy Profile 
-¤  Mybackup @  - Backup Profile
+===========================
+COMMAND FOR SET GROUP
+===========================
 
- ~~~~~~ Command Setting ~~~~~~    
-¤  [Like:on/off]     
-¤  [Add on/off] 	 
-¤  [Auto join on/off] 	   
-¤  [Contact on/off] 	
-¤  [Leave on/off]  
-¤  [Share on/off]           
-¤  [Add on/off] 		   
-¤  [Jam on/off]			   
-¤  [Jam say:]			   
-¤  [Com on/off]	
-¤  [Message set:]	
-¤  [Comment set:]	
-¤  [Pesan add:]	
+[*]  Glist      - List Group BOT
+[*]  Cancel     - Cancel All Pending Grup
+[*]  Mid @      - Get MID 
+[*]  Invite     - Invite Via Send Contact
+[*]  Invite:    - Via MID
+[*]  Whitelist @ - Via Tag
+[*]  Whitelist:  - Via Mid
+[*]  Whitelist   - Via Send Contact
+[*]  Blacklist @ - Via Tag
+[*]  Blacklist:  - Via Mid
+[*]  Blacklist   - Via Send Contact
+[*]  Clear ban   - Delete All Blacklist
+[*]  Link on     - Open QR
+[*]  Link off    - Close QR
+[*]  Gurl        - Open QR And Get Link
+[*]  Url         - Get QR Link
+[*]  Gname       - Change Name Group
+[*]  Banlist     - Cek Tersangka Kriminal
+[*]  Details grup - Via Gid
+[*]  Inviteme:    - Via Gid
+[*]  Info grup
+[*]  Clear grup 
+[*]  Nuke
+[*]  Ratakan
+[*]  Kick @       - Via Tag
+[*]  Kick:        - Via MID
 
- ~~~~ Auto Setting Command ~~~~~    
-¤  [Panick:on/off]      
-¤  [Protect on]			   
-¤  [Qrprotect on/off]			   
-¤  [Inviteprotect on/off]			   
-¤  [Cancelprotect on/off]		   
-¤  [Staff add/remove @]	   
- ~~~~~~~~ For Admin ~~~~~~~~
-  
-  ฿ΦŦ ÀύŦǿ₤їķέ β¥.Ð☆₩
+==================================
+COMMAND FOR PLAYERS
+==================================
+
+[*]  Bc:ct 
+[*]  Bc:grup
+[*]  Block @
+[*]  Blocklist
+[*]  Spam on/off
+[*]  Uni
+[*]  Bot:ct      -  Contact BOT
+[*]  Bot:grup    - Grup Joined BOT
+[*]  Allname:    - Change All Name BOT
+[*]  Allbio:     - Change All Bio BOT
+[*]  Bot sp      - Tes Speed BOT
+[*]  Speed       - Tes Speed
+[*]  Mycopy @    - Copy Profile 
+[*]  Mybackup @  - Backup Profile    
+[*]  [Like:on/off]     
+[*]  [Add on/off] 	 
+[*]  [Auto join on/off] 	   
+[*]  [Contact on/off] 	
+[*]  [Leave on/off]  
+[*]  [Share on/off]           
+[*]  [Add on/off] 		   
+[*]  [Jam on/off]			   
+[*]  [Jam say:]			   
+[*]  [Com on/off]	
+[*]  [Message set:]	
+[*]  [Comment set:]	
+[*]  [Pesan add:]	
+
+==================================
+COMMAND FOR BOT PROTECTED
+==================================
+          
+[*]  [Protect on]			   
+[*]  [Qrprotect on/off]			   
+[*]  [Inviteprotect on/off]			   
+[*]  [Cancelprotect on/off]		   
+[*]  [Staff add/remove @]	   
+
+==================================
+SUPPORT BY KANEKI SELFBOT
+==================================
   
 """
 KAC=[cl,ki,ki2,ki3,ki4,ki5]
@@ -112,9 +114,9 @@ ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"ubcd678c1e478baff8a4c453e52049dbf"]
-admsa = "ubcd678c1e478baff8a4c453e52049dbf"
-admin = "ubcd678c1e478baff8a4c453e52049dbf"
+Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"uc77fd25b59f6e563d84f1334f3fed10b"]
+admsa = "uc77fd25b59f6e563d84f1334f3fed10b"
+admin = "uc77fd25b59f6e563d84f1334f3fed10b"
 
 wait = {
     'contact':False,
